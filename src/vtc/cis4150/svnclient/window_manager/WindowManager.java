@@ -15,6 +15,18 @@ public class WindowManager
     private ActionPanel _actionPanel;
     private ConnectionPanel _connectionPanel;
 
+    public void init()
+    {
+        createMainWindow();
+    }
+
+    private void createMainWindow()
+    {
+        _mainWindow = new JFrame("SVNClient");
+        _mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        _mainWindow.setVisible(true);
+    }
+
     public void setPopupWindow(JFrame popupWindow)
     {
         _popupWindow = popupWindow;

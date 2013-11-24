@@ -14,16 +14,16 @@
     <file path="/SettingNotFoundException.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1383077864710" ignored="false" />
     <file path="/UnableToLoadSettings.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1383078276772" ignored="false" />
     <file path="/Launcher.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1384451135614" ignored="false" />
-    <file path="/SVNClient.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1384454333838" ignored="false" />
-    <file path="/ConnectionManager.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1385062320782" ignored="false" />
+    <file path="/SVNClient.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1385314843898" ignored="false" />
+    <file path="/ConnectionManager.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1385314685588" ignored="false" />
     <file path="/WorkingCopy.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1384453118295" ignored="false" />
-    <file path="/WindowManager.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1384450865738" ignored="false" />
+    <file path="/WindowManager.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1385314973170" ignored="false" />
     <file path="/ActionPanel.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1384450803446" ignored="false" />
     <file path="/ConnectionPanel.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1384454266584" ignored="false" />
     <file path="/ExplorerPanel.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1384451179464" ignored="false" />
     <file path="/FileViewerPanel.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1384451195931" ignored="false" />
     <file path="/RevisionHistoryPanel.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1384451227684" ignored="false" />
-    <file path="/LocalSettings.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1384451343752" ignored="false" />
+    <file path="/LocalSettings.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1385314216373" ignored="false" />
     <file path="/FileIManager.java" changelist="c15bbfe0-1432-4a23-b9b8-cc2d33e2896e" time="1384451502090" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,83 +85,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JAVA/vtc.cis4150.svnclient.connection_manager" pinned="false" current="true" current-in-tab="true">
-        <entry file="uml://JAVA/vtc.cis4150.svnclient.connection_manager">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>vtc.cis4150.svnclient.connection_manager</OriginalElement>
-              <nodes>
-                <node x="1000.7142857142858" y="37.464285714285666">vtc.cis4150.svnclient.window_manager.connection_display.ConnectionPanel</node>
-                <node x="-109.28571428571428" y="347.75">vtc.cis4150.svnclient.local_settings.LocalSettings</node>
-                <node x="-109.57142857142861" y="-157.67857142857142">vtc.cis4150.svnclient.connection_manager.WorkingCopy</node>
-                <node x="1094.428571428571" y="598.6071428571428">vtc.cis4150.svnclient.window_manager.connection_display.FileViewerPanel</node>
-                <node x="570.0" y="-6.25">vtc.cis4150.svnclient.window_manager.WindowManager</node>
-                <node x="566.5" y="319.0">vtc.cis4150.svnclient.SVNClient</node>
-                <node x="915.4285714285712" y="598.6071428571428">vtc.cis4150.svnclient.window_manager.connection_display.RevisionHistoryPanel</node>
-                <node x="753.4285714285716" y="698.8928571428571">vtc.cis4150.svnclient.io.FileIOManager</node>
-                <node x="683.8571428571427" y="-134.2500000000001">vtc.cis4150.svnclient.window_manager.ActionPanel</node>
-                <node x="-325.0" y="825.75">vtc.cis4150.svnclient.Launcher</node>
-                <node x="94.28571428571428" y="141.75000000000006">vtc.cis4150.svnclient.connection_manager.ConnectionManager</node>
-                <node x="1247.4285714285713" y="598.6071428571428">vtc.cis4150.svnclient.window_manager.connection_display.ExplorerPanel</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="vtc.cis4150.svnclient.window_manager.connection_display.ConnectionPanel" target="vtc.cis4150.svnclient.window_manager.connection_display.RevisionHistoryPanel">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="vtc.cis4150.svnclient.window_manager.connection_display.ConnectionPanel" target="vtc.cis4150.svnclient.window_manager.connection_display.ExplorerPanel">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="vtc.cis4150.svnclient.window_manager.WindowManager" target="vtc.cis4150.svnclient.window_manager.ActionPanel">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="vtc.cis4150.svnclient.SVNClient" target="vtc.cis4150.svnclient.io.FileIOManager">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="vtc.cis4150.svnclient.SVNClient" target="vtc.cis4150.svnclient.window_manager.WindowManager">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="vtc.cis4150.svnclient.connection_manager.ConnectionManager" target="vtc.cis4150.svnclient.connection_manager.WorkingCopy">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="vtc.cis4150.svnclient.window_manager.WindowManager" target="vtc.cis4150.svnclient.window_manager.connection_display.ConnectionPanel">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="vtc.cis4150.svnclient.SVNClient" target="vtc.cis4150.svnclient.local_settings.LocalSettings">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="vtc.cis4150.svnclient.window_manager.connection_display.ConnectionPanel" target="vtc.cis4150.svnclient.window_manager.connection_display.FileViewerPanel">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="vtc.cis4150.svnclient.SVNClient" target="vtc.cis4150.svnclient.connection_manager.ConnectionManager">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="vtc.cis4150.svnclient.Launcher" target="vtc.cis4150.svnclient.SVNClient">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="501.71428571428567" y="412.0" />
-              <SelectedNodes>
-                <node>vtc.cis4150.svnclient.connection_manager.ConnectionManager</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+      <file leaf-file-name="Launcher.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/Launcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="5" selection-start="257" selection-end="257" vertical-scroll-proportion="0.36710963">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -169,7 +97,37 @@
       <file leaf-file-name="ConnectionManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/connection_manager/ConnectionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
+            <state line="24" column="11" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1106#1119#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SVNClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/SVNClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="30" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WindowManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/window_manager/WindowManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="31" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalSettings.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/local_settings/LocalSettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="35" selection-start="685" selection-end="704" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -193,14 +151,14 @@
         <option value="$PROJECT_DIR$/src/vtc/cis4150/window_manager/FileViewerPanel.java" />
         <option value="$PROJECT_DIR$/src/vtc/cis4150/window_manager/RevisionHistoryPanel.java" />
         <option value="$PROJECT_DIR$/src/vtc/cis4150/window_manager/connection_display/RevisionHistoryPanel.java" />
-        <option value="$PROJECT_DIR$/src/vtc/cis4150/svnclient/local_settings/LocalSettings.java" />
         <option value="$PROJECT_DIR$/src/vtc/cis4150/svnclient/io/FileIManager.java" />
         <option value="$PROJECT_DIR$/src/vtc/cis4150/svnclient/io/FileIOManager.java" />
-        <option value="$PROJECT_DIR$/src/vtc/cis4150/svnclient/window_manager/WindowManager.java" />
         <option value="$PROJECT_DIR$/src/vtc/cis4150/svnclient/connection_manager/WorkingCopy.java" />
         <option value="$PROJECT_DIR$/src/vtc/cis4150/svnclient/window_manager/connection_display/ConnectionPanel.java" />
-        <option value="$PROJECT_DIR$/src/vtc/cis4150/svnclient/SVNClient.java" />
+        <option value="$PROJECT_DIR$/src/vtc/cis4150/svnclient/local_settings/LocalSettings.java" />
         <option value="$PROJECT_DIR$/src/vtc/cis4150/svnclient/connection_manager/ConnectionManager.java" />
+        <option value="$PROJECT_DIR$/src/vtc/cis4150/svnclient/SVNClient.java" />
+        <option value="$PROJECT_DIR$/src/vtc/cis4150/svnclient/window_manager/WindowManager.java" />
       </list>
     </option>
   </component>
@@ -208,7 +166,7 @@
     <option name="x" value="70" />
     <option name="y" value="-8" />
     <option name="width" value="1858" />
-    <option name="height" value="1092" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -238,8 +196,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,14 +203,6 @@
               <option name="myItemId" value="SVNClient" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.7 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -302,182 +250,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vtc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cis4150" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="svnclient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="window_manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SVNClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SVNClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vtc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cis4150" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="svnclient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="window_manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="connection_display" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SVNClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SVNClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vtc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cis4150" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="svnclient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local_settings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SVNClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SVNClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vtc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cis4150" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="svnclient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SVNClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SVNClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vtc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cis4150" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="svnclient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exceptions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SVNClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SVNClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vtc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cis4150" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="svnclient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="connection_manager" />
+              <option name="myItemId" value="svnkit-1.7.11" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -486,9 +270,10 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FisherSorts" />
+    <property name="last_opened_file_path" value="D:/Documents/Documents/Development/projects/LRK" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -496,6 +281,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -510,7 +296,29 @@
       <recent name="vtc.cis4150.svnclient" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Launcher">
+    <configuration default="false" name="Launcher" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="vtc.cis4150.svnclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="vtc.cis4150.svnclient.Launcher" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SVNClient" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -602,13 +410,25 @@
       <patterns />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Launcher" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Launcher" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -635,7 +455,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="-8" width="1858" height="1092" extended-state="0" />
+    <frame x="70" y="-8" width="1858" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -649,14 +469,15 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21993318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22160356" sideWeight="0.67022413" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -736,16 +557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/exceptions/UnableToSaveSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="13" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/window_manager/connection_display/ExplorerPanel.java">
@@ -762,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/window_manager/WindowManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="361" selection-end="376" vertical-scroll-proportion="0.22112212">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/connection_manager/WorkingCopy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="20" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
@@ -779,13 +584,6 @@
     <entry file="jar://$PROJECT_DIR$/lib/svnkit-1.7.11/lib/svnkit-1.7.11.jar!/org/tmatesoft/svn/core/wc/SVNClientManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.019517796" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/SVNClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.71067107">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/io/FileIOManager.java">
@@ -816,96 +614,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/local_settings/LocalSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="20" selection-start="906" selection-end="906" vertical-scroll-proportion="0.45764577">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/connection_manager/ConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/vtc.cis4150.svnclient.connection_manager">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement>vtc.cis4150.svnclient.connection_manager</OriginalElement>
           <nodes>
-            <node x="1000.7142857142858" y="37.464285714285666">vtc.cis4150.svnclient.window_manager.connection_display.ConnectionPanel</node>
-            <node x="-109.28571428571428" y="347.75">vtc.cis4150.svnclient.local_settings.LocalSettings</node>
-            <node x="-109.57142857142861" y="-157.67857142857142">vtc.cis4150.svnclient.connection_manager.WorkingCopy</node>
-            <node x="1094.428571428571" y="598.6071428571428">vtc.cis4150.svnclient.window_manager.connection_display.FileViewerPanel</node>
-            <node x="570.0" y="-6.25">vtc.cis4150.svnclient.window_manager.WindowManager</node>
-            <node x="566.5" y="319.0">vtc.cis4150.svnclient.SVNClient</node>
-            <node x="915.4285714285712" y="598.6071428571428">vtc.cis4150.svnclient.window_manager.connection_display.RevisionHistoryPanel</node>
-            <node x="753.4285714285716" y="698.8928571428571">vtc.cis4150.svnclient.io.FileIOManager</node>
-            <node x="683.8571428571427" y="-134.2500000000001">vtc.cis4150.svnclient.window_manager.ActionPanel</node>
-            <node x="-325.0" y="825.75">vtc.cis4150.svnclient.Launcher</node>
-            <node x="94.28571428571428" y="141.75000000000006">vtc.cis4150.svnclient.connection_manager.ConnectionManager</node>
-            <node x="1247.4285714285713" y="598.6071428571428">vtc.cis4150.svnclient.window_manager.connection_display.ExplorerPanel</node>
+            <node x="" y="">vtc.cis4150.svnclient.window_manager.connection_display.ConnectionPanel</node>
+            <node x="" y="">vtc.cis4150.svnclient.local_settings.LocalSettings</node>
+            <node x="" y="">vtc.cis4150.svnclient.connection_manager.WorkingCopy</node>
+            <node x="" y="">vtc.cis4150.svnclient.window_manager.connection_display.FileViewerPanel</node>
+            <node x="" y="">vtc.cis4150.svnclient.window_manager.WindowManager</node>
+            <node x="" y="">vtc.cis4150.svnclient.io.FileIOManager</node>
+            <node x="" y="">vtc.cis4150.svnclient.SVNClient</node>
+            <node x="" y="">vtc.cis4150.svnclient.window_manager.connection_display.RevisionHistoryPanel</node>
+            <node x="" y="">vtc.cis4150.svnclient.window_manager.ActionPanel</node>
+            <node x="" y="">vtc.cis4150.svnclient.Launcher</node>
+            <node x="" y="">vtc.cis4150.svnclient.connection_manager.ConnectionManager</node>
+            <node x="" y="">vtc.cis4150.svnclient.window_manager.connection_display.ExplorerPanel</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="vtc.cis4150.svnclient.window_manager.connection_display.ConnectionPanel" target="vtc.cis4150.svnclient.window_manager.connection_display.RevisionHistoryPanel">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="vtc.cis4150.svnclient.window_manager.connection_display.ConnectionPanel" target="vtc.cis4150.svnclient.window_manager.connection_display.ExplorerPanel">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="vtc.cis4150.svnclient.window_manager.WindowManager" target="vtc.cis4150.svnclient.window_manager.ActionPanel">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="vtc.cis4150.svnclient.SVNClient" target="vtc.cis4150.svnclient.io.FileIOManager">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="vtc.cis4150.svnclient.SVNClient" target="vtc.cis4150.svnclient.window_manager.WindowManager">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="vtc.cis4150.svnclient.connection_manager.ConnectionManager" target="vtc.cis4150.svnclient.connection_manager.WorkingCopy">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="vtc.cis4150.svnclient.window_manager.WindowManager" target="vtc.cis4150.svnclient.window_manager.connection_display.ConnectionPanel">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="vtc.cis4150.svnclient.SVNClient" target="vtc.cis4150.svnclient.local_settings.LocalSettings">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="vtc.cis4150.svnclient.window_manager.connection_display.ConnectionPanel" target="vtc.cis4150.svnclient.window_manager.connection_display.FileViewerPanel">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="vtc.cis4150.svnclient.SVNClient" target="vtc.cis4150.svnclient.connection_manager.ConnectionManager">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="vtc.cis4150.svnclient.Launcher" target="vtc.cis4150.svnclient.SVNClient">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="501.71428571428567" y="412.0" />
-          <SelectedNodes>
-            <node>vtc.cis4150.svnclient.connection_manager.ConnectionManager</node>
-          </SelectedNodes>
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="1791.7142857142856" y="967.5714285714284" />
+          <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
             <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/local_settings/LocalSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="35" selection-start="685" selection-end="704" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/connection_manager/ConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="11" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1106#1119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/window_manager/WindowManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="31" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/SVNClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="30" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vtc/cis4150/svnclient/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="257" selection-end="257" vertical-scroll-proportion="0.36710963">
+          <folding />
         </state>
       </provider>
     </entry>

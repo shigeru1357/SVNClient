@@ -30,6 +30,11 @@ public class LocalSettings
 
     }
 
+    public void loadDefaultSettings()
+    {
+
+    }
+
     public Set<String> getSettingKeys()
     {
         return null;
