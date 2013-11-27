@@ -15,7 +15,7 @@ public class ConnectionPanel extends JPanel
 
     public ConnectionPanel()
     {
-        setBackground(new Color(0f, 1f, 0f));
+        //setBackground(new Color(0f, 1f, 0f));
         add(new JTextArea("Empty Connection Panel"));
     }
 
